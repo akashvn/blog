@@ -1,6 +1,6 @@
 title: Akash Blog
 author: Akash Vemulapalli
-url: https://www.abhinavsaxena.com/moonwalk # root address of the site
+url: https://akashvn.github.io/blog/ # root address of the site
 description: > # description of the site (multiple lines allowed)
   Blog for Akash's thoughts
 
@@ -9,8 +9,7 @@ permalink: /:slug
 favicon: "./logo.png" # relative path to site's favicon
 
 twitter:
-    username: abhinav # update or delete this
-    card: summary_large_image
+    username: akvbell # update or delete this
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
 remote_theme: abhinavs/moonwalk
@@ -39,7 +38,7 @@ theme_config:
     title_old_projects: Old Projects
 
 soopr:
-  publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
+  publish_token: "pt_5c03d65ee5ee52740303d5f1c2264181" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
 
 highlighter: rouge
 
