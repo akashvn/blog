@@ -1,8 +1,8 @@
-title: Akash Blog
+title: Akash
 author: Akash Vemulapalli
 url: https://akashvn.github.io/blog/ # root address of the site
 description: > # description of the site (multiple lines allowed)
-  Blog for Akash's thoughts
+  Wandering through my brain
 
 permalink: /:slug
 

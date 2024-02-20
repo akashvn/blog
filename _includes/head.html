@@ -11,6 +11,20 @@
     {% endif %}
   </title>
 
+<style>
+  .social-media {
+    display: flex;
+    align-items: center;
+    /* Remove 'justify-content: center;' to left-align the flex items */
+    margin-left: -7px; /* Adjust as needed for your layout */
+  }
+
+  .social-media img {
+    margin-right: 10px; /* Adjust the space between the icons */
+  }
+</style>
+
+
   {% seo title=false %}
   {% feed_meta %}
 

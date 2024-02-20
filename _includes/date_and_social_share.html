@@ -17,10 +17,26 @@
 {% endif %}
 </p>
 
-<div class="soopr-btn"
-   data-twitter="SooprCo"
->
+
+{% if page.title == "About Me" %}
+<div class="social-media">
+  <a href="https://www.instagram.com/akashv20/">
+    <img src="/assets/images/insta.png" alt="Instagram" width="30" height="30">
+  </a>
+  <a href="https://www.linkedin.com/in/akash-vemulapalli-109a5813a/">
+    <img src="/assets/images/linkedin.png" alt="LinkedIn" width="30" height="30">
+  </a>
+  <a href="https://twitter.com/akvbell">
+    <img src="/assets/images/twitter.png" alt="Twitter" width="30" height="30">
+  </a>
+  <a href="https://open.spotify.com/user/akashnv">
+    <img src="/assets/images/spotify.png" alt="Spotify" width="25" height="25">
+  </a>
 </div>
+{% endif %}
+
+
+
 
 {% if site.theme_config.show_tags == true %}
   <div class="">
